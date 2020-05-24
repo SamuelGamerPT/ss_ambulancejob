@@ -5,6 +5,9 @@
 - redemrp_notification
 - redemrp_respawn
 
+#HOW TO USE
+- Just use this command in your chat /setjob id ambulance grade
+
 # ADVISES
 - To use this script you have to change the redemrp_respawn script. If you wan't you can just copy this and insert in your script
 
