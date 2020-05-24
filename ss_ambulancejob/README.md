@@ -10,7 +10,8 @@
 
 # ADVISES
 - Create all the items in your redemrp_inventory/config.lua
-Config.Usable = {
+
+`Config.Usable = {
 badage,
 mbandage,
 medikit,
@@ -20,11 +21,11 @@ Config.Labels = {
 ["bandage"] = Bandage,
 ["mbandage"] = Medic Bandage,
 ["medikit"] = MediKit,
-}
+}`
 
 - To use this script you have to change the redemrp_respawn script. If you wan't you can just copy this and insert in your script
 
-```local new_character = 0
+`local new_character = 0
 local respawned = false
 local firstjoin = true
 local pressed = false
@@ -116,4 +117,4 @@ AddEventHandler("redemrp_respawn:rev", function()
 	rp = false
 	pressed = false
 	respawned = false
-end)```
+end)`
