@@ -9,6 +9,19 @@
 - Just use this command in your chat /setjob id ambulance grade
 
 # ADVISES
+- Create all the items in your redemrp_inventory/config.lua
+Config.Usable = {
+badage,
+mbandage,
+medikit,
+}
+
+Config.Labels = {
+["bandage"] = Bandage,
+["mbandage"] = Medic Bandage,
+["medikit"] = MediKit,
+}
+
 - To use this script you have to change the redemrp_respawn script. If you wan't you can just copy this and insert in your script
 
 local new_character = 0
