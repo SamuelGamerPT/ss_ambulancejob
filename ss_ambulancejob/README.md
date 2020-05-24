@@ -23,7 +23,7 @@ Config.Labels = {
 ["medikit"] = MediKit,
 }
 
-- To use this script you have to change the redemrp_respawn script. If you wan't you can just copy this and insert in your script
+- To use this script you have to change the redemrp_respawn script. If you wan't you can just copy this and insert in your script in client.lua (don't change all the redemrp_respawn code, you only have to change the first lines like this). This code is responsible for make you be able to revive peopel when you use the medikit
 
 ```local new_character = 0
 local respawned = false
